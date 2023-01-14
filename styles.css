@@ -50,6 +50,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  margin-right: 20px;
 }
 
 #section1-second-half {
@@ -57,4 +58,41 @@ p {
   flex-direction: column;
   gap: 100px;
   align-items: flex-end;
+}
+
+/* Second quadrant styling */
+
+#placeholder-2 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: solid 2px blue;
+  border-radius: 10px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 200px 50px 200px;
+  gap: 50px;
+}
+
+#section2-group {
+  display: flex;
+  text-align: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#sri {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
