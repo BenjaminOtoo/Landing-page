@@ -18,6 +18,7 @@ button {
   border-radius: 10px;
   padding: 5px 20px;
   margin-top: 10px;
+  border-style: solid;
 }
 
 ul {
@@ -119,4 +120,35 @@ figure {
 #thor {
   align-self: flex-end;
   font-weight: 500;
+}
+
+/* Fourth section styling */
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 150px;
+}
+
+.fourth-group {
+  display: flex;
+  gap: 100px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 35px 100px;
+  border-radius: 10px;
+}
+
+h5 {
+  margin: 0;
+}
+
+.fourth-text {
+  font-size: 12px;
+}
+
+.last-button {
+  border-color: #e5e7eb;
+  border-style: solid;
 }
