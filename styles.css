@@ -45,6 +45,7 @@ p {
   width: 500px;
   height: 200px;
   background-color: aliceblue;
+  
 }
 
 #section1-first-half {
@@ -89,7 +90,7 @@ figure {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 10px;
 }
 
 #sri {
